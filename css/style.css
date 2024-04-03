@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+p,
+li {
+    font-size: 22px;
+}
+
 .font-small {
     font-size: 1rem;
 }
@@ -15,10 +20,6 @@
 .font-special {
     color: rgb(5 184 207);
     font-weight: bold;
-}
-
-p {
-    font-size: 24px;
 }
 
 /* HEADER */
@@ -36,7 +37,8 @@ header img {
 
 
 /* MAIN */
-main {
+main,
+ul {
     margin: 1rem;
 }
 
@@ -46,4 +48,8 @@ section.title {
 
 .title h1 {
     font-size: 3rem;
+}
+
+article p {
+    margin: 2rem 0;
 }
