@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+.font-small {
+    font-size: 1rem;
+}
+
+.font-gray {
+    color: gray;
+}
+
+.font-special {
+    color: rgb(5 184 207);
+    font-weight: bold;
+}
+
+p {
+    font-size: 24px;
+}
+
+/* HEADER */
 header {
     height: 11rem;
     background-color: rgb(31 178 235);
@@ -13,5 +31,19 @@ header {
 header img {
     width: 18rem;
     margin-top: 5rem;
-    margin-left: 1rem;
+    padding: 1rem;
+}
+
+
+/* MAIN */
+main {
+    margin: 1rem;
+}
+
+section.title {
+    padding-bottom: 1rem;
+}
+
+.title h1 {
+    font-size: 3rem;
 }
