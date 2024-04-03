@@ -39,7 +39,7 @@ header img {
 /* MAIN */
 main,
 ul {
-    margin: 1rem;
+    margin: 1rem 1rem 2rem 1rem;
 }
 
 section.title {
@@ -52,4 +52,19 @@ section.title {
 
 article p {
     margin: 2rem 0;
+}
+
+/* Table */
+thead {
+    background-color: rgb(3 169 244);
+    color: white;
+    text-align: left;
+}
+
+.tr-odd {
+    background-color: rgb(110 215 255);
+}
+
+.td-25 {
+    width: 25%;
 }
