@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
-p,
-li {
-    font-size: 22px;
+body {
+    font-size: 20px;
+}
+
+main,
+ul,
+footer {
+    margin: 1rem 1rem 2rem 1rem;
 }
 
 .font-small {
@@ -37,11 +42,6 @@ header img {
 
 
 /* MAIN */
-main,
-ul {
-    margin: 1rem 1rem 2rem 1rem;
-}
-
 section.title {
     padding-bottom: 1rem;
 }
@@ -67,4 +67,30 @@ thead {
 
 .td-25 {
     width: 25%;
+}
+
+/* FOOTER */
+footer {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.suggested {
+    color: white;
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#suggested-1 {
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#suggested-2 {
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    background-position: center;
 }
