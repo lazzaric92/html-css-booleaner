@@ -5,7 +5,7 @@
 }
 
 body {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 main,
@@ -15,7 +15,7 @@ footer {
 }
 
 .font-small {
-    font-size: 1rem;
+    font-size: 12px;
 }
 
 .font-gray {
@@ -47,7 +47,7 @@ section.title {
 }
 
 .title h1 {
-    font-size: 3rem;
+    font-size: 42px;
 }
 
 article p {
@@ -72,7 +72,7 @@ thead {
 /* FOOTER */
 footer {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .suggested {
