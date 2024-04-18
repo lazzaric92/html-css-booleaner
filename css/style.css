@@ -8,14 +8,91 @@ body {
     font-size: 16px;
 }
 
+div.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 main,
 ul,
 footer {
     margin: 1rem 1rem 2rem 1rem;
 }
 
+.width-25 {
+    width: 25%;
+}
+
 .font-small {
     font-size: 12px;
+}
+
+/* ||  HEADER */
+header {
+    height: 8.3rem;
+    background-color: rgb(31 178 235);
+    background-image: url(../img/pattern.png);
+    background-size: 40%;
+    background-position: top;
+}
+
+header img {
+    width: 16rem;
+    padding: 4rem 1rem 0;
+}
+
+
+/* ||  MAIN */
+section.title {
+    padding-bottom: 1rem;
+}
+
+.title h1 {
+    font-size: 42px;
+}
+
+.main-content p {
+    margin: 2rem 0;
+}
+
+/* ||  Table */
+main table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+thead {
+    background-color: rgb(3 169 244);
+    text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(110 215 255);
+}
+
+/* ||  FOOTER */
+.suggested {
+    width: 15rem;
+    height: 15rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+}
+
+.graph {
+    background-image: url(../img/graph.jpg);
+}
+
+/* ** STYLE */
+.font-white {
+    color: white;
 }
 
 .font-gray {
@@ -25,72 +102,4 @@ footer {
 .font-special {
     color: rgb(5 184 207);
     font-weight: bold;
-}
-
-/* HEADER */
-header {
-    height: 11rem;
-    background-color: rgb(31 178 235);
-    background-image: url(../img/pattern.png);
-}
-
-header img {
-    width: 18rem;
-    margin-top: 5rem;
-    padding: 1rem;
-}
-
-
-/* MAIN */
-section.title {
-    padding-bottom: 1rem;
-}
-
-.title h1 {
-    font-size: 42px;
-}
-
-article p {
-    margin: 2rem 0;
-}
-
-/* Table */
-thead {
-    background-color: rgb(3 169 244);
-    color: white;
-    text-align: left;
-}
-
-.tr-odd {
-    background-color: rgb(110 215 255);
-}
-
-.td-25 {
-    width: 25%;
-}
-
-/* FOOTER */
-footer {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-.suggested {
-    color: white;
-    width: 15rem;
-    height: 15rem;
-    margin-top: 1rem;
-    padding: 1rem;
-}
-
-#suggested-1 {
-    background-image: url(../img/monitor.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-#suggested-2 {
-    background-image: url(../img/graph.jpg);
-    background-size: cover;
-    background-position: center;
 }
